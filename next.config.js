@@ -53,6 +53,8 @@ const config = (phase) => {
     })
   );
 
+  config.output = process.env.NEXT_OUTPUT_TYPE;
+
   return config;
 };
 
